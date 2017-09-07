@@ -4,7 +4,6 @@ for i in range(0,len(lista)):
 	print("lista:",lista[i],'i: ',i)
 	valor = lista[i]
 	if valor != str:
-
 		lista.remove(valor)
 		if(i<len(lista)):
 			lista.insert(i,str(valor))

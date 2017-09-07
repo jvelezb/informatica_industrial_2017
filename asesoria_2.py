@@ -6,7 +6,6 @@ def obtencion_diccionario(min,max,paso):
 		diccionario[x]=x*x
 	return diccionario
 
-pepito()
 
 def pepito():
 	minimo =int(input("Minimo: "))
@@ -16,4 +15,6 @@ def pepito():
 	print(d1)
 
 
-#print(obtencion_diccionario(1,3,1))
+print(obtencion_diccionario(1,3,1))
+
+#pepito()

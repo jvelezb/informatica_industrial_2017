@@ -3,4 +3,4 @@ for x in gato:
 	res = ""
 	for y in x:
 		res = res+" "+str(y	)
-	print(res,)
+	print(res)
