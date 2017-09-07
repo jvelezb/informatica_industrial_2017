@@ -6,12 +6,13 @@ def imprimir_matriz(matriz):
 		print(renglon)
 
 def main():
-	dimension = int(input("dimesion: "))
+	dimensionx = int(input("dimesionx: "))
+	dimensiony = int(input("dimesiony: "))
 	matriz = []
-	for x in range(dimension):
+	for x in range(dimensionx):
 		matriz.append([])
-		for y in range(dimension):
+		for y in range(dimensiony):
 			matriz[x].append((y+1)*(x+1))
 	imprimir_matriz(matriz)
-
+main()
 

@@ -9,7 +9,7 @@ for x in lista:
 		listaNum.append(x)
 print(listaStr)
 print(listaNum)
-listaStr.sort()
+listaStr.sort(reverse =True)
 listaNum.sort()
 print(listaStr)
 print(listaNum)
