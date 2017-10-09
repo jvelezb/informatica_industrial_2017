@@ -18,4 +18,5 @@ vocho.manejar()
 vocho.__velocidadMaxima = 10000000000 # No se puede aceder
 vocho.manejar()
 vocho.setVelocidadMaxima(100)
-#print("velocidad: ", vocho.__velocidadMaxima)
+vocho.manejar()
+print("velocidad: ", vocho.__velocidadMaxima)
