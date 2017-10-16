@@ -1,7 +1,6 @@
 from abc import ABC, abstractmethod
  
 class Animal(ABC):
-    
     @abstractmethod
     def comer(self):
         print("El animal come")
@@ -32,7 +31,24 @@ class Elefante(Mamifero):
 
 tiburonBlanco = Tiburon()
 dumbo = Elefante()
-#animal = Animal()
+
 dumbo.comer()
 print("a darle hacer ejercicio")
 dumbo.caminar()
+tiburonBlanco.caminar()
+
+animal = Animal()
+#mamifero = Mamifero()
+print("Viene el ciclo for: ")
+zoo = [tiburonBlanco, dumbo]
+for animal in zoo:
+    animal.comer()
+
+
+
+
+
+
+
+
+
