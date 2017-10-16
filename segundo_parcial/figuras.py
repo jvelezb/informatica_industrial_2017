@@ -13,6 +13,7 @@ class Figura(ABC):
 
 class Poligono(Figura):
 	pass
+	
 
 class Circulo(Figura):
 	def __init__(self,radio):
@@ -26,6 +27,13 @@ class Circulo(Figura):
 class Cuadrado (Poligono):
 	pass
 
+
+
+opcion = input("dame 1 si es circulo 2 si es rectangulo")
+if ocion ==1
+	figura = Ciruclo()
+elfi opcion ==2
+	figura = rectangulo()
 circulo = Circulo(1)
 print(circulo.obtenerPerimetro())
 print(circulo.obtenerArea() )
