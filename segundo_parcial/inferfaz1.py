@@ -1,4 +1,3 @@
-# import the library
 from appJar import gui
 
 # handle button events
