@@ -2,17 +2,22 @@ import sys
 sys.path.append("../")
 from appJar import gui
 
-app=gui()
+def accion(boton):
+	print(boton)
+
+
+app=gui("calificacion","600x500")
 app.setFont(20)
 
-app.addEntry("e1")
-app.addEntry("e2")
-app.addEntry("e3")
-app.addLabelEntry("Name")
-app.addValidationEntry("v1")
-app.addFileEntry("f1")
+app.addLabelEntry("Matricula")
+app.addLabelEntry("calificacion 1P")
+app.addLabelEntry("calificacion 2P")
+app.addLabelEntry("calificacion proyect")
 
-app.setEntryDefault("e2", "Age here")
-app.setEntryValid("v1")
+
+app.setEntryDefault("calificacion 1P", "100")
+
+
+app.addButtons(["Guardar","Generar Archivo"],accion)
 
 app.go()
